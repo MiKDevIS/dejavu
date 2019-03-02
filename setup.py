@@ -1,4 +1,6 @@
 from setuptools import setup, find_packages
+
+
 # import os, sys
 
 
@@ -13,6 +15,7 @@ def parse_requirements(requirements):
         # remove empty lines
         reqs = filter((lambda x: x), nocomments)
         return reqs
+
 
 PACKAGE_NAME = "PyDejavu"
 PACKAGE_VERSION = "0.1.3"

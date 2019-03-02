@@ -1,3 +1,4 @@
+MySQLdb
 # requirements file
 
 ### BEGIN ###
